@@ -1,21 +1,21 @@
 # unzipping
 Aplikasi sederhana untuk mengekstrak compressed file (zip dan rar) dari beberapa folder sekaligus, dapat digunakan untuk mengekstrak file terkompres pada beberapa folder di dalam satu folder utama, contoh:
 $ ./tree-md .
-# Project tree
+ * [Pekerjaan Rumah 2](./tree-md)
+ * [PR2_Mahasiswa A](./dir2)
+   * [PR2_Mahasiswa A.zip](./dir2/file21.ext)
+ * [PR2_Mahasiswa B](./dir2)
+   * [PR2_Mahasiswa B.rar](./dir2/file21.ext)
 
-.
- * [tree-md](./tree-md)
- * [dir2](./dir2)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
-   * [file11.ext](./dir1/file11.ext)
-   * [file12.ext](./dir1/file12.ext)
- * [file_in_root.ext](./file_in_root.ext)
- * [README.md](./README.md)
- * [dir3](./dir3)
-
+menjadi
+$ ./tree-md .
+ * [Pekerjaan Rumah 2](./tree-md)
+ * [PR2_Mahasiswa A](./dir2)
+   * [PR2_Mahasiswa A.zip](./dir2/file21.ext)
+   * [PR2_Mahasiswa A.pdf](./dir2/file21.ext)
+ * [PR2_Mahasiswa B](./dir2)
+   * [PR2_Mahasiswa B.rar](./dir2/file21.ext)
+   * [PR2_Mahasiswa B.pdf](./dir2/file21.ext)
 
 ## Setup
 1. Clone repository ke local computer anda
